@@ -6,7 +6,7 @@
 
 **Emerson Felix de Souza**  
 - Email: emersonfsti@gmail.com
-- GitHub: [github.com/seu-usuario](https://github.com/seu-usuario)
+- GitHub: [github.com/emersonfsti](https://github.com/emersonfsti)
 
 ## Sobre o Livro
 
