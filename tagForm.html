@@ -1,0 +1,25 @@
+<!DOCTYPE html> <!-- Declaração do tipo de documento HTML5 -->
+<html>
+<head>
+    <meta charset="UTF-8"> <!-- Configuração da codificação de caracteres -->
+    <title>Exemplo de Formulário</title> <!-- Título da página que aparece na barra de título do navegador -->
+</head>
+<body>
+    <h1>Formulário de Contato</h1> <!-- Título de primeiro nível -->
+
+    <!-- Início do formulário -->
+    <form action="processar.php" method="post"> <!-- Abertura do formulário com atributos action e method -->
+        <label for="nome">Nome:</label> <!-- Rótulo do campo de entrada para "Nome" -->
+        <input type="text" id="nome" name="nome" required> <!-- Campo de entrada de texto para o nome -->
+
+        <label for="email">Email:</label> <!-- Rótulo do campo de entrada para "Email" -->
+        <input type="email" id="email" name="email" required> <!-- Campo de entrada de email -->
+
+        <label for="mensagem">Mensagem:</label> <!-- Rótulo do campo de entrada para "Mensagem" -->
+        <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea> <!-- Campo de entrada de texto multilinha para a mensagem -->
+
+        <input type="submit" value="Enviar"> <!-- Botão de envio do formulário -->
+    </form>
+    <!-- Fim do formulário -->
+</body>
+</html>
